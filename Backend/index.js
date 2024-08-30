@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 const options = {
-    origin: "http://localhost:5173",
+    origin: "https://pro-india-assign-2hz1.vercel.app",
     credentials: true
 }
 app.use(express.json());
